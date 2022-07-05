@@ -31,6 +31,7 @@
     repo: "{{ lighthouse_vsc }}"
     version: master
     dest: "{{ lighthouse_location_dir }}"
+    
 - name: lighthouse | create lighthouse config
   become: true
   template:
